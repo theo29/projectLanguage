@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">projectLanguage</string>
+    <string name="LearnFrench">Apprendre le français</string>
+    <string name="LearnEnglish">Apprendre l'anglais</string>
+    <string name="LearnGerman">Apprendre l'allemand</string>
+    <string name="DifficultyBegginer">Cours débutants</string>
+    <string name="DifficultyAdvanced">Cours intermédiraires</string>
+    <string name="DifficutlyExpert">Cours experts</string>
 </resources>
