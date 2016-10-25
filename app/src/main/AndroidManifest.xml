@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ChoixLangues" />
-        <activity android:name=".ChoixDifficulte"></activity>
+        <activity android:name=".ChoixDifficulte" />
+        <activity android:name=".ChoixExercices" />
+        <activity android:name=".Vocabulaire"></activity>
     </application>
 
 </manifest>

@@ -14,17 +14,19 @@
     <QuickContactBadge
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="?android:attr/actionModeCloseDrawable"
+        app:srcCompat="?attr/actionModeCloseDrawable"
         android:id="@+id/BackToChoixLanguage"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/BackToChoixLanguage"
-        android:layout_marginTop="24dp">>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/BackToChoixLanguage"
+        android:layout_alignParentStart="true">>
 
 
         <Button
@@ -37,13 +39,17 @@
             android:text="@string/DifficultyAdvanced"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/DifficultyAdvanced" />
+            android:id="@+id/DifficultyAdvanced"
+            android:textAlignment="center" />
 
         <Button
             android:text="@string/DifficutlyExpert"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/DifficultyExpert" />
+            android:id="@+id/DifficultyExpert"
+            android:textAlignment="center" />
     </LinearLayout>
+
+
 
 </RelativeLayout>
