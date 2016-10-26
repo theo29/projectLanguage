@@ -18,7 +18,8 @@
         <activity android:name=".ChoixLangues" />
         <activity android:name=".ChoixDifficulte" />
         <activity android:name=".ChoixExercices" />
-        <activity android:name=".Vocabulaire"></activity>
+        <activity android:name=".Vocabulaire" />
+        <activity android:name=".VocabulaireTest"></activity>
     </application>
 
 </manifest>
