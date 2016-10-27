@@ -19,7 +19,9 @@
         <activity android:name=".ChoixDifficulte" />
         <activity android:name=".ChoixExercices" />
         <activity android:name=".Vocabulaire" />
-        <activity android:name=".VocabulaireTest"></activity>
+        <activity android:name=".VocabulaireTest" />
+        <activity android:name=".ChoixMultiples" />
+        <activity android:name=".TextesTrous"></activity>
     </application>
 
 </manifest>
